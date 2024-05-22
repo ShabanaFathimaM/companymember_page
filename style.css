@@ -1,0 +1,192 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    border-style: solid;
+    margin: 50px;
+    color:brown;
+}
+.title{
+    padding:30px;
+    color:orange;
+    font-size: 25px;
+    
+}
+
+.detail{
+    text-align: center;
+    font-size:20px;
+    margin-left: 150px;
+    margin-right:150px;
+    
+
+}
+
+.underline{
+    margin-top:40px;
+    border: 1px dotted orange;
+    width:550px;
+    margin-left:380px ;
+    
+}
+
+.team{
+    padding: 30px;
+    font-size: 15px;
+
+}
+
+.team{
+    padding:30px;
+    font-size:15px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    color:black;
+    margin-bottom: 10px;
+}
+.team p{
+    padding:20px;
+    font-size: 30px;
+    color:blue;
+}
+
+ 
+.leader{
+    display: inline-block;
+    padding-left: 210px;
+    
+}
+.name{
+    position:absolute;
+    text-align: center;
+    padding-left: 40px;
+    color:red;
+
+
+}
+
+.name1{
+    position:absolute;
+    text-align: center;
+    padding-left: 5px;
+    color:red;
+
+}
+.name3{
+    position:absolute;
+    text-align: center;
+    padding-left: 20px;
+    color:red;
+
+
+}
+
+
+.leader1{
+    padding:70px;
+    display: inline-block;
+    padding-left: 310px;
+    
+    
+}
+
+.team1 p{
+    padding:30px;
+    font-size: 30px;
+    color: blue;
+    text-align:center;
+    margin-top: 20px;
+}
+.Development{
+    display: inline-block;
+    padding-left: 130px;
+
+}
+
+.Development1{
+    
+    display:inline-block;
+    padding-left: 200px;
+    padding-top: 70px;
+    
+}
+.team2 p{
+    padding:30px;
+    font-size: 30px;
+    color: blue;
+    text-align:center;
+    margin-top: 20px;
+}
+.underline1{
+    margin-top:100px;
+    border: 1px dotted orange;
+    width:550px;
+    margin-left:350px ;
+    
+}
+
+.sales{
+    display: inline-block;
+    padding-left: 200px;
+
+}
+
+.sales1{
+    display:inline-block;
+    padding-left:130px;
+    
+    padding-top:70px;
+}
+
+
+@media screen and (max-width:600px){
+    .detail{
+        margin-left:50px;
+        margin-right: 50px;
+    }
+
+    .underline{
+        margin-left:120px;
+        width:250px;
+    }
+
+    .leader{
+        padding-left: 160px;
+        padding-bottom: 20px;
+    }
+
+    .leader1{
+        padding-left: 160px;
+    }
+
+    .Development{
+        padding-left:160px ;
+        padding-bottom: 20px;
+    }
+
+    .Development1{
+        padding-left: 160px;
+
+    }
+    .underline1{
+        margin-left:120px;
+        width:250px;
+    }
+
+    .sales{
+        padding-left: 160px;
+        padding-bottom: 20px;
+    }
+
+    .sales1{
+        padding-left:160px;
+    }
+}
+
+
+
+
+
